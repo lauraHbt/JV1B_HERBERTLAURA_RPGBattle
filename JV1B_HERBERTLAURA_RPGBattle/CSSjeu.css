@@ -1,0 +1,136 @@
+body{
+    background-image: url(Background.png);
+    border:10px solid black;
+}
+main{
+    display: flex;
+    border:10px solid rgb(3, 44, 3);
+}
+#tout{
+    width: 4000px;
+}
+.personnage{
+    display: flex;
+    flex-direction: column;
+    border:10px solid rgb(19, 104, 8);
+}
+div.haut{
+    display: flex;
+    justify-content: center;
+}
+div#haut{
+    display: flex;
+    justify-content: center;
+    background-image: url(Dialogue.png);
+    height: 80px; width: 610px;
+    border:10px solid rgb(255, 255, 255);
+}
+div#centre{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border:10px solid rgb(255, 255, 255);
+}
+#start{
+    height: 50px; width: 150px;
+    border: 2px solid black;
+    background-color: red;
+}
+div#bas{
+    display: flex;
+    justify-content: space-around;
+    border:10px solid rgb(255, 255, 255);
+}
+ul.monstre{
+    display: flex;
+    flex-direction: column;
+    border:10px solid rgb(104, 8, 8);
+    max-width: 100%; height: 100%;
+    color: white;
+}
+img.Imposteur{
+    max-width: 100%; height: 100%;
+}
+span#impov{
+    height: 50px; width: 100px;
+}
+#info2{
+    color: transparent;
+}
+#info2:hover{
+    color : white;
+}
+img.bat{
+    max-width: 47%; height: 47%;
+}
+span#bat1v{
+    height: 50px; width: 100px;
+}
+#info1{
+    color: transparent;
+}
+#info1:hover{
+    color: white;
+}
+span#bat2v{
+    height: 50px; width: 100px;
+}
+#info3{
+    color: transparent;
+}
+#info3:hover{
+    color: white;
+}
+img#purple{
+    max-width: 100%; height: 100%;
+}
+img#blue{
+    max-width: 100%; height: 100%;
+}
+img#green{
+    max-width: 100%; height: 100%;
+}
+img#pink{
+    max-width: 100%; height: 100%;
+}
+div#att{
+    height: 100px; width: 298px;
+}
+div#def{
+    height: 100px; width: 298px;
+}
+div#atts{
+    height: 100px; width: 298px;
+}
+div#bar_purple{
+    background-color: blueviolet;
+    height: 100px; width: 200px;
+}
+div#bar_blue{
+    background-color: cyan;
+    height: 100px; width: 200px;
+}
+div#bar_green{
+    background-color: greenyellow;
+    height: 100px; width: 200px;
+}
+div#bar_pink{
+    background-color: hotpink;
+    height: 100px; width: 200px;
+}
+ul.choix{
+    margin-top: -10px;
+    background-image: url(windows_base.png);
+    max-width: 340px; max-height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border:10px solid rgb(131, 131, 131);
+}
+ul.vie{
+    margin-top: -10px;
+    display: flex;
+    flex-flow: wrap row;
+    border:10px solid rgb(131, 131, 131);
+    max-width: 34%; height: 45%;
+}

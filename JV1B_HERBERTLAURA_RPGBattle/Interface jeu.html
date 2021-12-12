@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Game</title>
+    <link type="text/css" rel="stylesheet" href="CSSjeu.css">
+    
+</head>
+<body>
+<main>
+    <div id="tout">
+        <div class="haut">
+        <div id="haut">
+            <div class="dialogue"><h1 id="text">dialogue</h1></div>
+        </div>
+        </div>
+        <div id="centre">
+        <ul class="monstre">
+            <div id='info1'>
+            <img class="bat" id='bat1' src="bat1.png">
+            <span id='bat1v'>50</span>vie
+            </div>
+            <div id='info2'>
+            <img class="Imposteur" id='imposteur' src="monster.png">
+            <span id='impov'>200</span>vie
+            </div>
+            <div id='info3'>
+            <img class="bat" id='bat2' src="bat2.png">
+            <span id='bat2v'>50</span>vie
+            </div>
+        </ul>
+        <button id="start">Commercer la bataille</button>
+        <ul class="personnage">
+            <img id='purple' src="Purple.png" alt="">
+            <img id='blue' src="Blue.png" alt="">
+            <img id='green' src="Green.png" alt="">
+            <img id='pink' src="Pink.png" alt="">
+        </ul>
+        </div>
+        <div id="bas">
+        <ul class="choix">
+            <div id="att"><button id='a'>Attaque</button></div>
+            <div id="def"><button id='d'>Défense</button></div>
+            <div id="atts"><button id='s'>Attaque </br>Spéciale</button></div>
+        </ul>
+        <ul class="vie">
+            <div id="bar_purple"><h2>Purple</h2><span id='viep'>100</span>vies
+            <br><span id='manap'>50</span>mana
+            </div>
+            <div id="bar_blue"><h2>Blue</h2><span id='vieb'>100</span>vies
+            <br><span id='manab'>50</span>mana
+            </div>
+            <div id="bar_green"><h2>Green</h2><span id='vieg'>100</span>vies
+            <br><span id='manag'>50</span>mana
+            </div>
+            <div id="bar_pink"><h2>Pink</h2><span id='viepi'>100</span>vies
+            <br><span id='manapi'>50</span>mana    
+            </div>
+        </ul>
+        </div>
+    </div>
+</main>
+<script src="./JavaSjeu.js"></script>
+</body>
